@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="main_div">
       <div className="center_div">
-        <h1>TODO APP</h1>
+        <h1>TODO APP By</h1>
         <br />
         <input
           type="text"
