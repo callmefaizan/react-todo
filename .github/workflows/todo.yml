@@ -34,4 +34,6 @@ jobs:
         run: npm install --global surge
 
       - name: Deploying using surge
-        run: surge ./ faizan-react-todo.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+        run: surge ./ faizan-react-todo.surge.sh --token "3c2c93887dec712711ec30ee5b1ec5cf"
+
+        # $ {{ secrets.SURGE_TOKEN }}
